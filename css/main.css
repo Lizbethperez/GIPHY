@@ -50,9 +50,12 @@ header p{
     border-radius: 5%;
 }
 .format-link{
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Press Start 2P', cursive;
     color:#c9a742;
+    color:white;
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 20px;
 }
 #elementos .elemento a{
     font-family: 'Courier New', Courier, monospace;
@@ -61,7 +64,7 @@ header p{
     position:absolute;
     top: 30%;
     text-decoration: none;
-    font-size:16px;
+    font-size:10px;
 }
 .row{
     margin-left: 0;
@@ -70,4 +73,18 @@ header p{
 .btn{
     background-color: #910c0d;
     color:white;
+}
+
+@media(max-width:425px){
+    #elementos .elemento img{
+        width: 200px;
+        height: 200px;
+        position: inline-block;
+        border:3px solid #910c0d;
+        border-radius: 5%;
+    }
+    .format-link{
+        font-size: 15px;
+    }
+
 }
