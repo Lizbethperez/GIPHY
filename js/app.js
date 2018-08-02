@@ -10,7 +10,7 @@ $(document).ready(function(){
   }
 
 var armarTemplate = function(gif,url){
-    var t = "<div class='elemento'><img src='"+gif +"'/><a href='"+url+"'>ver mas</a></div"
+    var t = "<div class='elemento format-images row'><img col-lg-s6 src='"+gif +"'/><a class='format-link' href='"+url+"'><h2>ver mas</h2></a></div"
     return t;
 }
 
